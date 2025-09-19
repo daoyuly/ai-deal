@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(mkdir:*)",
+      "Bash(./node_modules/.bin/tailwindcss:*)",
+      "Bash(npm run serve:*)",
+      "WebFetch(domain:www.tryauron.com)",
+      "Bash(python3:*)",
+      "Bash(open index.html)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
