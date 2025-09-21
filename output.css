@@ -1198,3 +1198,7 @@ details[open]:hover {
 .hidden { display: none; }
 .block { display: block; }
 .resize-none { resize: none; }
+
+.big-button {
+  padding: 8px 24px;
+}
