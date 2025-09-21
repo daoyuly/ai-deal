@@ -620,7 +620,7 @@ section:has(details) details:nth-child(4) {
 /* Contact Section Spacing */
 #contact {
   padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-bottom: 1rem;
 }
 
 #contact .text-center h2 {

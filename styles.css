@@ -214,3 +214,20 @@ details[open] summary::after {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+/* Social media icons */
+.social-icon-wechat {
+  background: linear-gradient(135deg, #07C160, #00D4AA);
+}
+
+.social-icon-xiaohongshu {
+  background: linear-gradient(135deg, #FF2442, #FF6B6B);
+}
+
+.social-icon-douyin {
+  background: linear-gradient(135deg, #000000, #333333);
+}
+
+.social-icon-twitter {
+  background: linear-gradient(135deg, #1DA1F2, #0d8bd9);
+}
