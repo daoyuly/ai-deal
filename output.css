@@ -628,7 +628,7 @@ section:has(details) details:nth-child(4) {
 }
 
 #contact .text-center p {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 #contact .bg-white.rounded-2xl {
@@ -1190,6 +1190,11 @@ details[open]:hover {
   .navbar-scrolled {
     background: rgba(17, 24, 39, 0.95);
   }
+
+  .waiting-for-moment .text {
+    color: #000;
+  }
+
 }
 
 /* Additional Utility Classes */
@@ -1201,4 +1206,21 @@ details[open]:hover {
 
 .big-button {
   padding: 8px 24px;
+}
+
+.waiting-for-moment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.waiting-for-moment .text {
+  height: 180px; 
+  width: 180px;
+}
+
+.serivce-item-container {
+  width: 100px;
+  height: 100px;
+  margin-top: 120px;
 }
